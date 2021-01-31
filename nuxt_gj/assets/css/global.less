@@ -1,0 +1,39 @@
+@import "normalize";
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.hide-txt {
+  visibility: hidden;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 页面内容 z-index 1-100 */
+.page-content-zindex {
+  z-index: 1;
+}
+
+/* 底部导航，顶部导航，侧边栏 z-index */
+.bottom-side-top-menu-zindex {
+  z-index: 100;
+}
+
+/* 所以弹框 z-index 大于 底部导航 */
+.popup-box-zindex {
+  z-index: 200;
+}
+
+/* toast 等各种提示 z-index 最高 */
+.toast-zindex {
+  z-index: 9999;
+}

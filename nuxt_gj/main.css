@@ -1,0 +1,493 @@
+/* 手 */
+.shouzhuazhua{
+	cursor:pointer;
+}
+/* 动画 */
+
+.dh-tubiaodh {/* 阴影 */
+	-webkit-transition: box-shadow 2s;
+	transition: box-shadow 2s;
+}
+.dh-tubiaodh:hover {
+	box-shadow: 0 0px 10px #000000;
+}
+
+.dh-fangda2{
+	/* 放大 */
+	-webkit-transition: transform 1s,rotate 1s;
+	transition: transform 1s,rotate 1s;
+}
+.dh-fangda2:hover{
+	-webkit-transform: scale(1.3) rotate(225deg);
+	transform: scale(1.3) rotate(225deg);
+}
+.dh-fangda{
+	/* 放大 */
+	-webkit-transition: transform 1s,rotate 1s;
+	transition: transform 1s,rotate 1s;
+}
+.dh-fangda:hover{
+	-webkit-transform: scale(1.3) rotate(-45deg);
+	transform: scale(1.3) rotate(-45deg);
+}
+.dh-yinying {
+	/*阴影起来*/
+	-webkit-transition: box-shadow 2s;
+	transition: box-shadow 2s;
+}
+
+.dh-yinying:hover {
+	box-shadow: 0 15px 5px #000000;
+}
+
+.dh-biaoti {
+	/*图标变色*/
+	transition: text-shadow 2s;
+	-webkit-transition: text-shadow 2s;
+}
+
+.dh-biaoti:hover {
+	font-weight: bold;
+	-moz-text-shadow: 0px 0px 15px #ff0000;
+	-webkit-text-shadow: 0px 0px 15px #ff0000;
+	text-shadow: 0px 0px 15px #ff0000;
+}
+/* 旋转 */
+.dh-xuanzhuan {
+	/*图标旋转*/
+	-webkit-transition: transform 4s;
+	transition: transform 4s;
+}
+
+.dh-xuanzhuan:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.dh-login {
+	/*logo的动画*/
+	box-shadow: 0px 0px 0px #000000;
+	transition: box-shadow 3s;
+	-webkit-transition: box-shadow 3s;
+}
+
+.dh-login:hover {
+	box-shadow: 0px 0px 15px #000000;
+}
+
+.dh-touxinag {
+	/*头像*/
+	background-color: #ffffff;
+	border-radius: 16px;
+
+	transition: background-color, border-radius 3s, 4s;
+	-webkit-transition: background-color, border-radius 3s, 4s;
+}
+
+.dh-touxinag:hover {
+	background-color: #dddddd;
+	box-shadow: 0 0 20px #000000;
+}
+
+/* 透明 */
+.dh-touming {
+	/*头像*/
+	background-color: rgba(198, 198, 198, 0.2);
+
+	transition: background-color, text-shadow 3s, 1s;
+	-webkit-transition: background-color, text-shadow 3s, 1s;
+}
+
+.dh-touming:hover {
+	text-shadow: 0 0 10px #00ffea;
+	background-color: rgba(198, 198, 198, 1.0);
+}
+/*   通用 */
+.dh-tongyong {
+	cursor: pointer;
+	transition: text-shadow 1s;
+	-webkit-transition: text-shadow 1s;
+}
+
+.dh-tongyong:hover {
+	text-shadow: 0 0 5px #000000;
+}
+
+
+
+/* 主题颜色 */
+.main_color {
+	color: #99CCCC;
+}
+
+/* 线条颜色 */
+.main_xiantiaoys {
+	border-bottom: 1px solid #c7c7c7;
+  width: 100%;
+}
+/* 首页图片移入 */
+.main_yrcolor {
+	background-color: rgba(29, 26, 21, 0.6);
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	color: #000000;
+	display: flex;
+	align-items: center;
+}
+/* 背景颜色 */
+.main_bgcolor {
+	/* background-color: #e7e7e7; */
+}
+
+/* 所有页面的整体宽度 */
+.main_width {
+	width: 960px;
+}
+
+.main_maxwidth {
+	max-width: 1260px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/* 右边300px的栏位 */
+.main_right {
+	width: 300px;
+	/* 	border: 1px solid #99CCCC; */
+	/* height: 1200px; */
+}
+
+/* logo */
+.main_logo {
+	width: 100px;
+	height: auto;
+}
+
+/* 字体颜色 */
+.main_font_color {
+	color: #7e7e7e;
+}
+
+
+
+/* 导航 */
+.ind_flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main_daohang {
+	height: 80px;
+}
+
+.main_mowei {
+	width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+}
+
+.ind_btleft {
+	margin-left: 50px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.ind_dhxtb {
+	width: 32px;
+	height: 32px;
+}
+
+.ind_dhxtb_wb {
+	font-size: 14px;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+/* 头像 */
+.touxiang {
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.main_tx_img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.main_tx_jbs {
+	width: 54px;
+	height: 54px;
+	background-image: linear-gradient(#aaf0d8, #ffaa00);
+	border-radius: 50%;
+	text-align: center;
+	padding: 2px;
+	box-sizing: border-box;
+}
+
+/* 线条   <div class="line_xian"></div>    */
+.line_xian {
+	width: 100%;
+	height: 1px;
+	background-color: #d8d8d8;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#main_url:hover {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#main_url2:hover {
+	cursor: pointer;
+}
+
+a {
+	/* transition: font-weight 1s;
+	-webkit-transition:font-weight 1s; */
+}
+
+/* 链接 */
+a:link {
+	text-decoration: none;
+	height: 100%;
+	color: #000000;
+}
+
+/* 已访问 */
+a:visited {
+	color: #8b8b8b;
+	text-decoration: none;
+	height: 100%;
+}
+
+/* 悬停 */
+a:hover {
+	color: #407434;
+	cursor: pointer;
+	text-decoration: none;
+	height: 100%;
+	font-weight: bold;
+}
+
+/* 有效的 */
+a:active {
+	color: #000000;
+	text-decoration: none;
+	height: 100%;
+}
+/* 逆向180 */
+.rotate180{
+	transform:rotate(180deg);
+}
+/* 各种图标 */
+/*create by CSS satyr, see more: http://shen.li/CSS-Satyr */
+/* .pic {
+	background-image: url("../img/image.png");
+	display: block;
+} */
+
+/*2020/10/19 22:11:38*/
+.cssr_c26 {
+	background-position: -399px -63px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c25 {
+	background-position: -0px -147px;
+	width: 544px;
+	height: 7px;
+}
+
+.cssr_c9 {
+	background-position: -210px -0px;
+	width: 88px;
+	height: 30px;
+}
+
+.cssr_c12 {
+	background-position: -357px -0px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c2 {
+	background-position: -0px -105px;
+	width: 290px;
+	height: 25px;
+}
+
+.cssr_c3 {
+	background-position: -315px -42px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c5 {
+	background-position: -399px -42px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c19 {
+	background-position: -336px -84px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c8 {
+	background-position: -420px -42px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c14 {
+	background-position: -357px -42px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c21 {
+	background-position: -0px -0px;
+	width: 88px;
+	height: 88px;
+}
+
+.cssr_c15 {
+	background-position: -105px -0px;
+	width: 88px;
+	height: 88px;
+}
+
+.cssr_c18 {
+	background-position: -294px -84px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c10 {
+	background-position: -462px -21px;
+	width: 18px;
+	height: 18px;
+}
+
+.cssr_c10_li {
+	background-position: -462px -21px;
+	background-repeat: no-repeat;
+	padding-left: 21px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.cssr_c7 {
+	background-position: -441px -21px;
+	width: 18px;
+	height: 18px;
+}
+
+.cssr_c7_li {
+	background-position: -441px -21px;
+	background-repeat: no-repeat;
+	padding-left: 21px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.cssr_c22 {
+	background-position: -210px -42px;
+	width: 100px;
+	height: 31px;
+}
+
+.cssr_c17 {
+	background-position: -210px -84px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c20 {
+	background-position: -252px -84px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c23 {
+	background-position: -273px -84px;
+	width: 16px;
+	height: 16px;
+}
+
+.cssr_c23_li {
+	background-position: -273px -84px;
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.cssr_c16 {
+	background-position: -231px -84px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c13 {
+	background-position: -441px -42px;
+	width: 20px;
+	height: 20px;
+}
+
+.cssr_c11 {
+	background-position: -462px -0px;
+	width: 15px;
+	height: 15px;
+}
+
+.cssr_c11_li {
+	background-position: -462px -0px;
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	height: 15px;
+	line-height: 15px;
+}
+
+.cssr_c1 {
+	background-position: -441px -0px;
+	width: 16px;
+	height: 16px;
+}
+
+.cssr_c1_li {
+	background-position: -441px -0px;
+	background-repeat: no-repeat;
+	padding-left: 19px;
+	height: 16px;
+	line-height: 16px;
+}
+
+.cssr_c6 {
+	background-position: -399px -0px;
+	width: 32px;
+	height: 32px;
+}
+
+.cssr_c4 {
+	background-position: -315px -0px;
+	width: 32px;
+	height: 34px;
+}

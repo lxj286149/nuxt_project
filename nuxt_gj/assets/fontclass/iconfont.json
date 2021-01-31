@@ -1,0 +1,86 @@
+{
+  "id": "2355092",
+  "name": "aaa",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19662467",
+      "name": "太阳",
+      "font_class": "day",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "19661190",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19661191",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "19661192",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19661193",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "19661194",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "19663515",
+      "name": "常规下载",
+      "font_class": "DownloadNormal",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "19663516",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "19663517",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "19663518",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "19663519",
+      "name": "播放数",
+      "font_class": "bofangshu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    }
+  ]
+}

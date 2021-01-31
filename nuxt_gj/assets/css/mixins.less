@@ -1,0 +1,23 @@
+//这里750是根据设计稿而定的 设计稿是 750
+@designWidth: 750;
+
+// do not use this anymore, use px2rem
+.px2rem75(@name, @px){
+    @{name}: @px / 75 * 1rem;
+}
+
+.px2rem(@name, @px) {
+    @{name}: unit(@px / @designWidth * 10, rem);
+}
+.px2remD(@name, @px1, @px2){
+    @{name}: unit(@px1 / @designWidth * 10, rem) unit(@px2 / @designWidth * 10, rem);
+}
+.px2remF(@name, @px1, @px2, @px3, @px4){
+    @{name}: unit(@px1 / @designWidth * 10, rem) unit(@px2 / @designWidth * 10, rem) unit(@px3 / @designWidth * 10, rem) unit(@px4 / @designWidth * 10, rem);
+}
+.text-overflow() {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
